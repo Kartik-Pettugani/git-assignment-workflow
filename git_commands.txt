@@ -1,0 +1,42 @@
+================================================================================
+GIT COMMANDS DOCUMENTATION - ASSIGNMENT 1
+================================================================================
+
+1. git init
+   Initializes a new local Git repository in the current working directory.
+
+2. git status
+   Displays the state of the working directory and staging area, showing tracked, untracked, and modified files.
+
+3. git add <file>
+   Adds specified files from the working directory to the staging area to prepare them for a commit.
+
+4. git add .
+   Stages all modified, new, and deleted files in the current repository directory.
+
+5. git commit -m "<message>"
+   Records the staged snapshot into the repository history with a descriptive commit message.
+
+6. git branch -M main
+   Renames the current default branch to 'main'.
+
+7. git checkout -b <branch_name>
+   Creates a new branch with the specified name and immediately switches the HEAD to it.
+
+8. git checkout <branch_name>
+   Switches the HEAD to the specified branch, updating the working directory to that branch's snapshot.
+
+9. git merge <branch_name>
+   Combines the commit history of the specified branch into the currently active branch.
+
+10. git log --oneline --graph --all
+    Displays the commit history visually as an ASCII graph showing branches and commits in compact single-line format.
+
+11. git reset --soft HEAD~1
+    Undoes the most recent commit, moving the HEAD back by one commit while keeping all changes staged.
+
+12. git remote add origin <url>
+    Links the local repository to a remote repository hosted on GitHub under the alias 'origin'.
+
+13. git push -u origin <branch_name>
+    Uploads local branch commits to the remote repository and sets upstream tracking.
